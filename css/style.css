@@ -21,6 +21,9 @@ nav ul a{
     text-decoration: none;
     color: black;
 }
+.activePage{
+    color: #8AA2B0;
+}
 .contact{
     margin-left: auto;
 }
@@ -29,3 +32,4 @@ nav ul a{
 main{
     height: 90vh;
 }
+
