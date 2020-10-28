@@ -1,0 +1,15 @@
+.projects{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr)); 
+}
+
+article{
+   padding: 5vw;
+   text-align: center;
+}
+
+article img{
+    width: 50%;
+    height: auto;
+}
