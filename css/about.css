@@ -3,6 +3,7 @@
     flex-direction: row-reverse;
     margin: 5vw;
 }
+
 /*profile picture*/
 .aboutPic{
     padding: 5vw;
@@ -29,4 +30,32 @@
 .aboutPic ul img{
     padding: 1vw;
     width: 2vw;
+}
+
+.profile{
+    padding: 1vw;
+    font-size: 1.5em;
+}
+@media only screen and (max-width: 768px) {
+    .about{
+    flex-direction: column;
+    }
+    .aboutPic ul{
+        flex-direction: row;
+    }
+    .aboutPic ul img{
+        padding: 1vw;
+        width: 3vw;
+    }
+    .profilePic {
+        max-width: 25%;
+        height: auto;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+    .profile{
+        padding: 1vw;
+        font-size: 1em;
+    }
 }

@@ -8,10 +8,11 @@ nav{
     margin-top: .5em;
     font-size: 1em;
     height: 10vh;
-    
+    background-color: black;    
 }
 nav ul{
     display:flex;
+    align-items: center;
     list-style: none;
 }
 nav ul li{
@@ -19,7 +20,7 @@ nav ul li{
 }
 nav ul a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .activePage{
     color: #8AA2B0;
