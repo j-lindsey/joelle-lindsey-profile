@@ -7,7 +7,7 @@ body{
 nav{
     margin-top: .5em;
     font-size: 1em;
-    height: 10vh;
+    height: auto;
     background-color: black;    
 }
 nav ul{

@@ -33,8 +33,25 @@
 }
 
 .profile{
+    max-width: 75ch;
+    text-align: justify;
+    text-justify: inter-word;
     padding: 1vw;
     font-size: 1.5em;
+}
+.profile::first-letter{
+    font-weight: bold;
+    color: #8AA2B0;
+    margin-right: .25em;
+    font-size: 2.5em;
+}
+.profile strong{
+    color: #8AA2B0;
+    font-size: 1.25em;
+}
+.profile a{
+    text-decoration: none;
+    color:#8AA2B0;
 }
 @media only screen and (max-width: 768px) {
     .about{
