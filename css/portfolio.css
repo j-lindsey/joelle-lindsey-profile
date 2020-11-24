@@ -42,6 +42,16 @@ article img:hover{
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
+
+.mini-projects{
+    display: flex;
+    justify-content: flex-start;
+}
+.mini-projects img{
+    width: 5vw;
+    height: auto;
+    padding-top: 0;
+}
 @media only screen and (max-width: 768px) {
     article{
         flex-direction: column;
