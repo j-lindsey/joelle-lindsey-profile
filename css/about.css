@@ -1,7 +1,7 @@
 .about{
     display: flex;
-    flex-direction: row-reverse;
-    margin: 5vw;
+    flex-direction: row;
+    margin: 5vh 5vw;
 }
 
 /*profile picture*/
@@ -32,12 +32,14 @@
     width: 2vw;
 }
 
+/*Paragraphs*/
 .profile{
     max-width: 75ch;
     text-align: justify;
-    text-justify: inter-word;
     padding: 1vw;
     font-size: 1.5em;
+    flex-shrink: 1;
+    
 }
 .profile::first-letter{
     font-weight: bold;
@@ -55,7 +57,7 @@
 }
 @media only screen and (max-width: 768px) {
     .about{
-    flex-direction: column;
+    flex-direction: column-reverse;
     }
     .aboutPic ul{
         flex-direction: row;
