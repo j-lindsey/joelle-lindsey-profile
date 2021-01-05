@@ -3,6 +3,10 @@ body {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 .skills {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
