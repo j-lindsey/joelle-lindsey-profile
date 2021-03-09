@@ -1,6 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: black;
+  background-image: url('../img/Texture 6.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 a {
@@ -39,12 +45,13 @@ a {
 }
 
 main {
+  border-radius: 50px;
+  background-color: black;
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  width: 80vw;
+  height: 80vh;
   justify-content: center;
   align-items: center;
-  postion: relative;
 }
 
 .name {
@@ -62,130 +69,7 @@ main {
   animation: fadeInLeft ease 2s;
 }
 
-.hexagon {
-  background-color: white;
-  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-  z-index: 1;
-  width: 10vh;
-  height: 10vh;
-  border: 1px solid black;
-  position: absolute;
-}
 
-.hex1 {
-  top: 90vh;
-  left: 0vh;
-  background: rgb(194, 195, 240);
-  background: radial-gradient(circle, rgba(194, 195, 240, 1) 15%, rgba(145, 0, 255, 0.21332282913165268) 100%);
-  animation: populateHex ease 2s;
-}
-
-.hex2 {
-  top: 80vh;
-  left: 0vh;
-  background: rgb(184, 119, 244);
-  background: radial-gradient(circle, rgba(184, 119, 244, 0.7567401960784313) 15%, rgba(247, 50, 153, 0.9724264705882353) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: 1s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex3 {
-  top: 90vh;
-  left: 10vh;
-  background: rgb(138, 14, 252);
-  background: radial-gradient(circle, rgba(138, 14, 252, 0.8827906162464986) 15%, rgba(241, 156, 201, 0.9724264705882353) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: .2s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex4 {
-  top: 90vh;
-  left: 20vh;
-  background: rgb(235, 188, 240);
-  background: radial-gradient(circle, rgba(235, 188, 240, 1) 15%, rgba(203, 176, 240, 0.21332282913165268) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: 0.5s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex5 {
-  top: 75vh;
-  left: 35vh;
-  background: rgb(182, 51, 242);
-  background: radial-gradient(circle, rgba(182, 51, 242, 1) 15%, rgba(241, 82, 128, 0.21332282913165268) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: .3s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex6 {
-  top: 70vh;
-  left: 0vh;
-  background: rgb(138, 14, 252);
-  background: radial-gradient(circle, rgba(138, 14, 252, 0.8827906162464986) 15%, rgba(182, 129, 246, 0.36458333333333337) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: 1.5s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex7 {
-  top: 80vh;
-  left: 10vh;
-  background: rgb(59, 53, 242);
-  background: radial-gradient(circle, rgba(59, 53, 242, 1) 15%, rgba(247, 50, 153, 0.21332282913165268) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: .9s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex8 {
-  top: 50vh;
-  left: 20vh;
-  background: rgb(201, 209, 242);
-  background: radial-gradient(circle, rgba(201, 209, 242, 1) 15%, rgba(245, 92, 236, 0.21332282913165268) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: .7s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex9 {
-  top: 65vh;
-  left: 20vh;
-  background: rgb(240, 235, 240);
-  background: radial-gradient(circle, rgba(240, 235, 240, 0.008841036414565795) 15%, rgba(247, 50, 153, 0.011642156862745057) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: 1s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex10 {
-  top: 50vh;
-  left: 45vh;
-  background: rgb(240, 235, 240);
-  background: radial-gradient(circle, rgba(240, 235, 240, 0.11808473389355745) 15%, rgba(247, 50, 153, 0.9724264705882353) 100%);
-  animation: populateHex ease 2s;
-  animation-delay: 2s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-}
-
-.hex11 {
-  top: 30vh;
-  left: 40vh;
-  background: rgb(59, 59, 246);
-  background: radial-gradient(circle, rgba(59, 59, 246, 0.7567401960784313) 15%, rgba(247, 50, 153, 0.9724264705882353) 100%);
-  animation: populateHex ease 2s;
-}
 
 @keyframes fadeInLeft {
   0% {
