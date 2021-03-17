@@ -56,7 +56,10 @@ article h2 {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-
+.mini-projects-section{
+    display: flex;
+    flex-direction: column;
+}
 
 .mini-projects {
     display: flex;
